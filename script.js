@@ -1,7 +1,7 @@
 let ShaddasATulipForBob = {};
 
 ShaddasATulipForBob.setupUI = function() {
-	let cards = document.getElementById("main-container").children[1].children[1];
+	let cards = document.getElementsByClassName("col-md-8")[0];
 	let card = document.createElement("div");
 	card.classList.add("card");
 	let cHeader = document.createElement("div");
